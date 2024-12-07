@@ -1,0 +1,6 @@
+def entrada_dados():
+    print("Calculadora de Investimentos")
+    valor_inicial = float(input("Digite o valor inicial do investimento: "))
+    taxa_juros = float(input("Digite a taxa de juros anual (%): ")) / 100
+    anos = int(input("Digite o período de investimento (em anos): "))
+    return valor_inicial, taxa_juros, anos
