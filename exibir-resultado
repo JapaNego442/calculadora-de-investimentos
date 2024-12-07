@@ -1,0 +1,6 @@
+def exibir_resultado(valor_futuro):
+    print(f"O valor futuro do investimento é: R$ {valor_futuro:.2f}")
+if _name_ == "_main_":
+    valor_inicial, taxa_juros, anos = entrada_dados()
+    valor_futuro = calcular_valor_futuro(valor_inicial, taxa_juros, anos)
+    exibir_resultado(valor_futuro)
