@@ -1,0 +1,2 @@
+def calcular_valor_futuro(valor_inicial, taxa_juros, anos):
+    return valor_inicial * (1 + taxa_juros) ** anos
